@@ -10,10 +10,10 @@ access_token = os.environ['ACCESS_TOKEN']
 client_secret = os.environ['CLIENT_SECRET']
 calendar_id = os.environ['CALENDAR_ID']
 key = os.environ['OPENAI_API']
-api_id = os.environ['API_ID']  # Telethon app id
-api_hash = os.environ['API_HASH']  # Telethon app hash
+api_id = os.environ['API_ID']
+api_hash = os.environ['API_HASH']
 bot_token = os.environ['BOT_TOKEN']
-allowed_user = os.environ['ALLOWED_USER']  # Allowed user's username
+allowed_user = os.environ['ALLOWED_USER']
 
 cronofy = pycronofy.Client(access_token=access_token)
 

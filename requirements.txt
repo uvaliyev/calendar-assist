@@ -1,4 +1,4 @@
-pycronofy==1.6.1
-python-telegram-bot==13.7
-python-dotenv==0.19.1
-openai==0.30.0
+pycronofy
+python-telegram-bot
+python-dotenv
+openai

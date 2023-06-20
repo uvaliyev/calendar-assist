@@ -1,5 +1,5 @@
 import os
-from telethon import TelegramClient, events
+from telethon import TelegramClient, events, types
 from dotenv import load_dotenv
 import pycronofy
 from script import eventer
@@ -20,7 +20,8 @@ cronofy = pycronofy.Client(access_token=access_token)
 client = TelegramClient('bot', api_id, api_hash).start(bot_token=bot_token)
 
 async def user_allowed(event):
-    if event.from_id.user_id != allowed_user:
+    user = await event.get_sender()
+    if user.username != allowed_user:
         await event.respond('You are not allowed to use this bot. author: @uvaliyev_a')
         return False
     return True

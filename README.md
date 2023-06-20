@@ -4,6 +4,8 @@ This is a Python project that includes a script to schedule an event on a calend
 
 The bot uses the GPT-3.5-turbo model from OpenAI to process natural language commands and convert them into JSON-based calendar event data. This data is then sent to a specific calendar using the Cronofy API.
 
+![Screenshot](./media/img.jpg)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
